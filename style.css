@@ -1,0 +1,285 @@
+* {
+  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Serif", serif;
+  font-family: "Work Sans", sans-serif;
+
+  margin: 0;
+}
+
+header {
+  background-image: url(./images/banner/banner1.png);
+
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head-part {
+  text-align: right;
+  width: 500px;
+  margin: 0 1200px;
+  padding-top: 300px;
+}
+
+.head-part-title {
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 24px;
+}
+.head-part-description {
+  margin-bottom: 32px;
+  color: #444343;
+  line-height: 26px;
+}
+.contact-us-button {
+  width: 160px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background: #f15b22;
+  border: none;
+  border-radius: 5px;
+}
+/* headpart css end */
+
+.failures {
+  display: flex;
+  gap: 200px;
+}
+
+.failures-img-part img {
+  margin-left: 330px;
+  margin-top: 130px;
+}
+
+.failures-text-part {
+  margin-top: 360px;
+  margin-right: 310px;
+}
+
+.failures-text-part-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+  line-height: 47px;
+  width: 288px;
+  color: #151414;
+}
+
+.failures-text-part-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+  width: 400px;
+}
+.failures-text-part-list {
+  line-height: 26px;
+}
+
+ul li{
+    list-style-image:url(./images/image\ 1.png) ;
+
+}
+
+/* failures section style end */
+
+.plan-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.plan-list {
+  display: flex;
+  gap: 80px;
+  justify-content: space-around;
+  margin-left: 80px;
+}
+.plan-list-number {
+  padding: 40px;
+}
+.plan-list-number img {
+  margin-left: 40px;
+}
+
+.plan-list-number-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+.plan-list-number-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  margin-top: 16px;
+  color: #737272;
+}
+/* plan part style end */
+
+.mindset {
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url(./images/watch.png);
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 300px;
+  margin-left: 350px;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+.mindset-part {
+  padding: 60px 65px;
+}
+.mindset-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  width: 450px;
+
+  color: #ffffff;
+}
+.mindset-button {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 160px;
+  height: 64px;
+  border: none;
+  margin-top: 45px;
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* mindset part style end */
+
+.footer-part {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 100px;
+  margin-top: 130px;
+  gap: 500px;
+}
+.footer-text-part-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.footer-text-part-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 485px;
+  margin-top: 20px;
+}
+.mail {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.phone {
+  margin-bottom: 16px;
+}
+.foooter-input-part {
+  padding: 30px;
+}
+.foooter-input-part h6 {
+  font-weight: 600;
+  font-size: 25px;
+}
+.foooter-input-part input {
+  padding: 10px;
+  margin-top: 45px;
+  background-color: black;
+  border: 2px white solid;
+  border-radius: 8px;
+  width: 325px;
+  height: 64px;
+  font-size: 18px;
+}
+.form-button {
+  width: 170.11px;
+  height: 64px;
+  color: #f15b22;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+/* new added part style */
+.hobby {
+    margin: 100px 300px;
+    width: 70%;
+    padding: 20px;
+  }
+
+  
+
+  .hobby-part{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+  }
+ 
+  .football{
+    padding: 60px 30px;
+    background: rebeccapurple;
+    border-radius: 5px;
+   
+  }
+  .games{
+    padding: 60px 30px;
+    background-color:rgb(189, 118, 4);
+    border-radius: 5px;
+  }
+  .karate{
+    padding: 60px 30px;
+    
+    background:royalblue;
+    border-radius: 5px;
+  }
+  .karate-part-title{
+    margin: 20px 0;
+  }
+
+  .donate-button {
+    background-color: #FF5959;
+    color: white;
+    height: 70px;
+    width: 170px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 48%;
+    margin-top: 3%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .donate-today {
+    margin: 100px 400px;
+    width: 60%;
+    padding: 20px;
+  }
+  .hobby-title {
+    font-size: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .hobby-des {
+    font-size: 22px;
+    margin: 20px 140px;
+    color: #707070;
+  }  
